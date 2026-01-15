@@ -78,7 +78,6 @@ def menu():
                    "\n Your Option: ")
     clear()
 
-    # minimal fix: correct option checking
     if option in ("1", "2"):
         pre_phrase = input("Type in the phrase: ").upper()
         clear()
@@ -120,7 +119,6 @@ def menu():
                 clear()
                 return
 
-            # minimal fix: correct mapping of options 3/4
             if option == "3":
                 vigenere(phrase, word_key)
             elif option == "4":
